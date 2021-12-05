@@ -77,7 +77,6 @@ jobs:
     - name: openclash
       run: |
           cd openwrt && cd package
-          mkdir openwrt-packages
           cd openwrt-packages
           git clone https://github.com/vernesong/OpenClash.git luci-app-openclash  
 
