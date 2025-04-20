@@ -87,11 +87,6 @@ jobs:
           mkdir openwrt-packages
           cd openwrt-packages
           git clone https://github.com/rosywrt/luci-theme-rosy.git
-    - name: openclash
-      run: |
-          cd openwrt && cd package
-          cd openwrt-packages
-          git clone https://github.com/vernesong/OpenClash.git luci-app-openclash  
 
     - name: SSH connection to Actions
       uses: P3TERX/ssh2actions@v1.0.0
